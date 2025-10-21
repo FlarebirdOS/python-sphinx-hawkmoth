@@ -1,6 +1,6 @@
 pkgname=python-sphinx-hawkmoth
-pkgver=0.21.0
-pkgrel=1
+pkgver=0.22.0
+pkgrel=2
 pkgdesc="Sphinx autodoc C extension"
 arch=('x86_64')
 url="https://github.com/jnikula/hawkmoth"
@@ -19,7 +19,7 @@ makedepends=(
     'python-wheel'
 )
 source=(https://github.com/jnikula/hawkmoth/archive/v${pkgver}/hawkmoth-${pkgver}.tar.gz)
-sha256sums=(e18571ee6aac1e5e87e60681505d853ea52c804fac6b66d5bc370269a81743ee)
+sha256sums=(549328f0555a81280dc47d6910ce240fd1808702cb6cd88a37cf5c86f572ffbc)
 
 build() {
     cd hawkmoth-${pkgver}
